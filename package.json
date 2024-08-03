@@ -1,5 +1,6 @@
 {
   "name": "tamendra-calc",
+  "description": "A simple library that provides a simple mathematical tools",
   "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,6 +15,27 @@
     "ts-jest": "^26.0.0",
     "typescript": "^4.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "directory": ".",
+    "url": "https://github.com/tamendra/tamendra-calc"
+  },
+  "keywords": [
+    "mathematical",
+    "sum",
+    "product",
+    "typescript",
+    "nodejs",
+    "npm"
+  ],
+  "author": "Tamendra Kumar Sahu <sahutamendra@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/tamendra/tamendra-calc/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/tamendra/tamendra-calc#readme",
+  "files": [
+    "dist"
+  ]
 }
