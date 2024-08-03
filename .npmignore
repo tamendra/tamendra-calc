@@ -1,0 +1,18 @@
+# Ignore all source files
+src/
+
+# Ignore test files
+tests/
+
+# Ignore TypeScript config file
+tsconfig.json
+
+# Ignore Jest config file
+jest.config.js
+
+# Ignore local node_modules
+node_modules/
+
+# Ignore other files that are not needed in the npm package
+.npmignore
+.gitignore

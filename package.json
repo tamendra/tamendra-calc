@@ -1,0 +1,19 @@
+{
+  "name": "tamendra-calc",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.0",
+    "ts-jest": "^26.0.0",
+    "typescript": "^4.0.0"
+  },
+  "dependencies": {
+  }
+}
