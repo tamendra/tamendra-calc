@@ -1,0 +1,20 @@
+{
+  "name": "@tamendra/product",
+  "version": "1.0.12",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo && npm run build",
+    "postpublish": "rm -rf ./dist",
+    "postpack": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo",
+    "prepack": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "files": [
+    "./dist",
+    "package.json"
+  ]
+}

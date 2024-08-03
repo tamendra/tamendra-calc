@@ -1,0 +1,30 @@
+{
+  "name": "tamendra-calc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "npm run build --workspaces",
+    "build:sum": "tsc -b packages/sum",
+    "build:product": "tsc -b packages/product",
+    "publish-all": "npm run publish:sum && npm run publish:product",
+    "publish:sum": "cd packages/sum && npm publish --access public",
+    "publish:product": "cd packages/product && npm publish --access public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.1.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.5.4"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": ""
+}
